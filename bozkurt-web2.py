@@ -14,9 +14,9 @@ print("-------------------------------------------------------")
 print("-                                                     -")
 print("-                                                     -")
 print("-                                                     -")
-print("-                 BOZKURT WEB V2                      -")
-print("-               İnstagram: @b3zkurt                   -")
-print("-     Web Site: https://bozkurthub.blogspot.com/      -")
+print("-                 F3rkan  WEB V2                      -")
+print("-               İnstagram: @f3rrkan                   -")
+print("-     Web Site: https://f3rkan.github.io/             -")
 print("-                                                     -")
 print("-                                                     -")
 print("-                                                     -")
@@ -39,7 +39,6 @@ print("13.Twitch'ı Aç")
 print("14.Dlive'ı Aç")
 print("15.Eba'ı Aç")
 print("16.Spotify'ı Aç")
-print("17.Pornhub ( Vpn Açık Tutunuz! )")
 
 veri = input("İşlem Numarası Giriniz: ")
 
@@ -53,7 +52,7 @@ if veri =="1":
     ddos = input("Seçin: ")
     
     if ddos =="1":
-        os.system("git clone https://github.com/b3zkurt/bozkurt-ddos")
+        os.system("git clone https://github.com/frkndncr/bozkurt-ddos")
 
     if ddos =="2":
         os.system("git clone https://github.com/cyweb/hammer")
@@ -104,6 +103,3 @@ elif veri =="15":
 
 elif veri =="16":
      webbrowser.open("https://spotify.com")
-
-elif veri =="17":
-    webbrowser.open("pornhub.com")
